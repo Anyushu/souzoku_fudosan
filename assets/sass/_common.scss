@@ -1,10 +1,23 @@
 body {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", Helvetica, sans-serif;
-  font-weight: 500;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 a {
   &:hover {
     text-decoration: none;
   }
+  &[href^="tel:"] {
+    @include media-breakpoint-up(md) {
+      pointer-events: none;
+    }
+  }
+}
+
+.m-plus {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.btn {
+  line-height: 1;
+  padding: 1.2em;
 }
