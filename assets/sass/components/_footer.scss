@@ -1,0 +1,181 @@
+.cta {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    &__left {
+      width: 48%;
+      &__img {
+        width: 100%;
+        text-align: center;
+      }
+      &--ttl {
+        font-size: 1rem;
+        color: $primary;
+        text-align: center;
+        margin-top: 1em;
+        font-weight: 500;
+      }
+      &--txt {
+        font-size: $font-size-sm;
+        text-align: center;
+        margin: 0;
+      }
+    }
+    &__right {
+      width: 48%;
+      &__balloon {
+        position: relative;
+        display: block;
+        box-sizing: border-box;
+        padding: 1.5rem;
+        font-size: 1.5rem;
+        background: $white;
+        border: solid 2px $body-color;
+        text-align: center;
+        box-shadow: 0 0 5px rgba($body-color, 0.1);
+        span {
+          font-size: 120%;
+          color: $primary;
+        }
+        &::before {
+          content: "";
+          position: absolute;
+          bottom: -24px;
+          left: 50%;
+          margin-left: -15px;
+          border: 12px solid transparent;
+          border-top: 12px solid $white;
+          z-index: 2;
+        }
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: -30px;
+          left: 50%;
+          margin-left: -18px;
+          border: 15px solid transparent;
+          border-top: 15px solid $body-color;
+          z-index: 1;
+        }
+      }
+      &__tel {
+        display: block;
+        margin-top: 2rem;
+        text-align: center;
+        &--icon {
+          display: inline-block;
+          vertical-align: top;
+          line-height: 3;
+        }
+        &--num {
+          display: inline-block;
+          line-height: 1;
+          color: $primary;
+          font-size: 3.5rem;
+          font-weight: 500;
+          margin-left: 0.5rem;
+        }
+        &--txt {
+          display: block;
+          text-align: center;
+          color: $body-color;
+          font-size: $font-size-sm;
+          margin-top: 0.5rem;
+        }
+      }
+      &--txt {
+        font-size: $font-size-sm;
+        margin: 1rem 0;
+        text-align: center;
+      }
+      &__btn {
+        .btn {
+          font-size: $font-size-lg;
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  padding: 50px 0;
+  background-color: #737373;
+  color: $white;
+  &__wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    &__logo {
+      &--link {
+        display: block;
+        color: $white;
+        font-size: 1.5rem;
+        font-weight: 500;
+        margin-bottom: 1em;
+      }
+      &__tel {
+        a {
+          display: block;
+          line-height: 1;
+          font-size: 0;
+          color: $white;
+          img {
+            display: inline-block;
+            vertical-align: middle;
+            width: 2.3rem;
+            height: auto;
+            margin-right: 0.5rem;
+          }
+          span {
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 2.3rem;
+          }
+          p {
+            font-size: 12px;
+            margin-top: 1em;
+          }
+        }
+      }
+    }
+    &__links {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+      margin-left: auto;
+      width: 60%;
+      ul {
+        margin: 0;
+        padding: 0;
+        li {
+          list-style: none;
+          margin-bottom: 1rem;
+          a {
+            font-size: 12px;
+            color: $white;
+            &::before {
+              content: "\f0da";
+              font-family: "Font Awesome 5 Free";
+              font-weight: 900;
+              color: $primary;
+              margin-right: 0.5em;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.socket {
+  font-size: 12px;
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+  color: $white;
+  background-color: #444444;
+}
