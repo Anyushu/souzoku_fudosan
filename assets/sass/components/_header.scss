@@ -1,5 +1,6 @@
 .header {
   box-shadow: 0 0 5px rgba($black, 0.05);
+  background-color: $white;
   &__top {
     padding: 10px 0;
     border-bottom: solid 1px $light;
@@ -62,6 +63,7 @@
       li {
         display: block;
         list-style: none;
+        width: calc(100% / 8);
         a {
           display: block;
           text-align: center;

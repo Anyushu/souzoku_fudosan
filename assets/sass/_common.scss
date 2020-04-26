@@ -1,5 +1,6 @@
 body {
   font-family: "Noto Sans JP", sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 a {
@@ -13,8 +14,24 @@ a {
   }
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  line-height: normal;
+}
+
+.sec {
+  padding: 80px 0;
+}
+
 .m-plus {
-  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 .btn {
