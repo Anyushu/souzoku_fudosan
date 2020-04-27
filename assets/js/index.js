@@ -15,6 +15,13 @@ $(function ($) {
     });
   }
 
+  // sp_menu
+  $('.header__sp__btn').on('click', function () {
+    $(this).toggleClass('open');
+    $(this).next('.header__sp__menu').slideToggle();
+    $(this).next('.header__sp__menu').toggleClass('open');
+  });
+
   // スムーススクロール
   $('a[href^="#"]').on("click", function () {
     var speed = 500;

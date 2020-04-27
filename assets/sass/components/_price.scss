@@ -1,0 +1,29 @@
+.price {
+  &__list {
+    &__inner {
+      overflow: hidden;
+      border-radius: .5rem;
+      margin-bottom: 3rem;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      &__ttl {
+        text-align: center;
+        line-height: 1;
+        color: $white;
+        background-color: $primary;
+        box-sizing: border-box;
+        padding: 1.5rem;
+        margin: 0;
+      }
+      &__txt {
+        box-sizing: border-box;
+        padding: 1.5rem;
+        background-color: $white;
+        p {
+          font-size: $font-size-sm;
+        }
+      }
+    }
+  }
+}

@@ -38,6 +38,36 @@
 <li><a href="">ブログ</a></li>
 </ul>
 </nav>
+
+<div class="header__sp">
+<div class="header__sp__btn">
+<span></span>
+<span></span>
+<span></span>
+<span class="header__sp__btn--txt">メニュー</span>
+</div>
+<!-- header__sp__btn -->
+<nav class="header__sp__menu">
+<ul>
+<li><a href="">ホーム</a></li>
+<li><a href="">料金表</a></li>
+<li><a href="">サービス内容</a></li>
+<li><a href="">スタッフ紹介</a></li>
+<li><a href="">会社案内</a></li>
+<li><a href="">お役立ち情報</a></li>
+<li><a href="">提携業者募集</a></li>
+<li><a href="">ブログ</a></li>
+</ul>
+<a class="header__sp__menu__tel" href="tel:0120-200-567">
+<img src="<?php e_img_url(); ?>/btn_tel_sp.png" alt="">
+</a>
+<a class="header__sp__menu__contact" href="<?php e_home_url(); ?>/contatc/">
+<img class="w-100" src="<?php e_img_url(); ?>/btn_contact_sp.png" srcset="<?php e_img_url(); ?>/btn_contact_sp.png 1x, <?php e_img_url(); ?>/btn_contact_sp@2x.png 2x" alt="">
+</a>
+</nav>
+</div>
+<!-- header__sp -->
+
 </header>
 
 <main>
