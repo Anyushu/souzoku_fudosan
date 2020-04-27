@@ -11,16 +11,16 @@
 <div class="header__top">
 <div class="container">
 <h1 class="header__top--logo">
-<a class="text-body m-plus" href="<?php e_home_url(); ?>">相続不動産サポートセンター</a>
+<a class="text-body m-plus" href="<?php e_home_url(); ?>">相続不動産<br class="d-md-none d-block">サポートセンター</a>
 </h1>
-<div class="header__top--toho m-plus">谷町四丁目駅から<br>徒歩2分</div>
+<div class="header__top--toho m-plus">谷町四丁目駅<br class="d-md-none d-block">から<br>徒歩2分</div>
 <a class="header__top__tel" href="tel:0120200567">
 <span class="header__top__tel--icon"><img class="img-fluid" src="<?php e_img_url(); ?>/icon_free.png" alt="フリーダイヤル"></span>
 <span class="header__top__tel--num">0120-200-567</span>
 <span class="header__top__tel--txt">営業時間：10:00 〜19:00｜定休日：水曜日</span>
 </a>
 <div class="header__top__tel--btn">
-<a class="btn btn-primary font-weight-bold text-white" href="<?php e_home_url(); ?>/contact/"><i class="far fa-envelope mr-2"></i>無料相談はこちら</a>
+<a class="btn btn-primary font-weight-bold text-white" href="<?php e_home_url(); ?>/contact/"><i class="far fa-envelope mr-md-2"></i><br class="d-md-none d-block">無料相談<span class="d-md-inline d-none">はこちら</span></a>
 </div>
 </div>
 <!-- container -->

@@ -4,6 +4,9 @@
   &__top {
     padding: 10px 0;
     border-bottom: solid 1px $light;
+    @include media-breakpoint-down(md) {
+      padding: 0;
+    }
     .container {
       display: flex;
       justify-content: start;
@@ -16,6 +19,16 @@
       font-weight: 500;
       margin: 0;
       line-height: 1;
+      @include media-breakpoint-down(md) {
+        font-size: $font-size-sm;
+        line-height: normal;
+        letter-spacing: normal;
+      }
+      a {
+        @include media-breakpoint-down(md) {
+          white-space: nowrap;
+        }
+      }
     }
     &--toho {
       box-sizing: border-box;
@@ -25,12 +38,23 @@
       color: $primary;
       border-radius: 0.5rem;
       margin-left: 1rem;
+      @include media-breakpoint-down(md) {
+        font-size: 10px;
+        padding: 1em;
+        line-height: 1.1;
+        margin: 0 1em 0 auto;
+        white-space: nowrap;
+        letter-spacing: normal;
+      }
     }
     &__tel {
       display: block;
       margin-left: auto;
       margin-right: 2.5rem;
       color: $body-color;
+      @include media-breakpoint-down(md) {
+        display: none;
+      }
       &--icon {
         display: inline-block;
         vertical-align: middle;
@@ -47,12 +71,28 @@
         font-size: 12px;
         line-height: 1;
       }
+      &--btn {
+        a {
+          @include media-breakpoint-down(md) {
+            font-size: 12px;
+            padding: $font-size-base 5px;
+            border-radius: 0;
+            i {
+              font-size: 1.4rem;
+              margin-bottom: 3px;
+            }
+          }
+        }
+      }
     }
   }
   &__nav {
     display: block;
     box-sizing: border-box;
     padding: 1rem 0;
+    @include media-breakpoint-down(md) {
+      display: none;
+    }
     ul {
       display: flex;
       justify-content: space-between;

@@ -15,7 +15,7 @@
 <div class="container">
 <h2 class="intoro2__ttl">
 <span class="intoro2__ttl--read">相続不動産サポートセンターは</span>
-<span class="intoro2__ttl--main">相続に関することから不動産売却まで<br>一気通貫でサービスをご提供しております。</span>
+<span class="intoro2__ttl--main">相続に関することから不動産売却まで<br>一気通貫でサービスを<br class="d-md-none d-inline">ご提供しております。</span>
 </h2>
 
 <div class="intoro2__inner">
@@ -58,7 +58,7 @@
 <div class="reason__inner">
 <h2 class="reason__inner__h2">相続不動産サポートセンターが<span>選ばれる8つ理由</span></h2>
 <div class="reason__inner__bnr text-center">
-<img src="<?php e_img_url(); ?>/bnr_1_pc.png" alt="">
+<img class="img-switch" src="<?php e_img_url(); ?>/bnr_1_pc.png" alt="">
 </div>
 <!-- reason__inner__bnr -->
 <div class="reason__inner__list">
@@ -156,11 +156,10 @@
 </div>
 <!-- container -->
 </section>
-<!-- sec -->
 
 <section class="sec contact bg-square">
 <div class="container">
-<p class="contact__p">下記相続に関してお悩みの方はお気軽にご相談ください！</p>
+<p class="contact__p">下記相続に関してお悩みの方は<br class="d-md-none d-inline">お気軽にご相談ください！</p>
 <h2 class="contact__ttl"><mark>何度でも相談料無料です！</mark></h2>
 <div class="contact__list">
 <ul>
@@ -179,7 +178,7 @@
 <li>相続税について知りたい方</li>
 <li>事業継承対策をお考えの方</li>
 </ul>
-<img class="contact__list--img" src="<?php e_img_url(); ?>/contact_pic.png" alt="">
+<img class="contact__list--img img-switch" src="<?php e_img_url(); ?>/contact_pic_pc.png" alt="">
 </div>
 <!-- contact__list -->
 <div class="contact__link">
@@ -191,11 +190,19 @@
 <p>営業時間：10:00 〜19:00 ｜ 定休日：水曜日</p>
 </a>
 </div>
+<div class="contact__link__tel__sp--btn d-md-none d-block">
+<a href="tel:0120-200-567">
+<img src="<?php e_img_url(); ?>/btn_tel_sp.png" alt="">
+</a>
+</div>
 </div>
 <!-- contact__link__tel -->
 <div class="contact__link__btn">
 <p>お電話が苦手という方は<br>まずはメールにてご相談してみてください。</p>
 <a class="btn btn-light d-block" href="<?php e_home_url(); ?>/contatc/"><i class="far fa-envelope mr-2"></i>無料相談はこちら</a>
+<a class="d-md-none d-block text-center" href="<?php e_home_url(); ?>/contatc/">
+<img class="w-100" src="<?php e_img_url(); ?>/btn_contact_sp.png" srcset="<?php e_img_url(); ?>/btn_contact_sp.png 1x, <?php e_img_url(); ?>/btn_contact_sp@2x.png 2x" alt="">
+</a>
 </div>
 <!-- contact__link__btn -->
 </div>
@@ -302,7 +309,7 @@
 <a class="links__list__inner" href="<?php e_home_url(); ?>/price/">
 <div class="links__list__inner__txt">
 <p class="links__list__inner__txt--ttl">料金表</p>
-<p class="links__list__inner__txt--p">相続に関する相談料は無料です。<br>この機会にご相談してみてください。</p>
+<p class="links__list__inner__txt--p">相続に関する相談料は無料です。<br class="d-md-inline d-none">この機会にご相談してみてください。</p>
 </div>
 <div class="links__list__inner__img">
 <img src="<?php e_img_url(); ?>/illust_price.png" alt="">
@@ -312,7 +319,7 @@
 <a class="links__list__inner" href="<?php e_home_url(); ?>/service/">
 <div class="links__list__inner__txt">
 <p class="links__list__inner__txt--ttl">サービス内容</p>
-<p class="links__list__inner__txt--p">相続不動産サポートセンターは相続の<br>専門家と不動産の専門家、両方が在籍<br>している他にない体制を構築しています。</p>
+<p class="links__list__inner__txt--p">相続不動産サポートセンターは相続の<br class="d-md-inline d-none">専門家と不動産の専門家、両方が在籍<br class="d-md-inline d-none">している他にない体制を構築しています。</p>
 </div>
 <div class="links__list__inner__img">
 <img src="<?php e_img_url(); ?>/illust_service.png" alt="">
@@ -322,7 +329,7 @@
 <a class="links__list__inner" href="<?php e_home_url(); ?>/price/">
 <div class="links__list__inner__txt">
 <p class="links__list__inner__txt--ttl">スタッフ紹介</p>
-<p class="links__list__inner__txt--p">相続不動産サポートセンターに<br>在籍している専門家などのスタッフを<br>ご紹介いたします。</p>
+<p class="links__list__inner__txt--p">相続不動産サポートセンターに<br class="d-md-inline d-none">在籍している専門家などのスタッフを<br class="d-md-inline d-none">ご紹介いたします。</p>
 </div>
 <div class="links__list__inner__img">
 <img src="<?php e_img_url(); ?>/illust_staff.png" alt="">
@@ -332,7 +339,7 @@
 <a class="links__list__inner" href="<?php e_home_url(); ?>/price/">
 <div class="links__list__inner__txt">
 <p class="links__list__inner__txt--ttl">提携業者募集</p>
-<p class="links__list__inner__txt--p">相続不動産サポートセンターでは<br>随時提携業者を募集しています。<br>興味がございましたら、ご覧ください。</p>
+<p class="links__list__inner__txt--p">相続不動産サポートセンターでは<br class="d-md-inline d-none">随時提携業者を募集しています。<br class="d-md-inline d-none">興味がございましたら、ご覧ください。</p>
 </div>
 <div class="links__list__inner__img">
 <img src="<?php e_img_url(); ?>/illust_alliance.png" alt="">
@@ -342,7 +349,7 @@
 <a class="links__list__inner" href="<?php e_home_url(); ?>/price/">
 <div class="links__list__inner__txt">
 <p class="links__list__inner__txt--ttl">会社案内</p>
-<p class="links__list__inner__txt--p">相続不動産サポートセンターを運営している<br>株式会社シンエイの会社情報をご案内いたします。</p>
+<p class="links__list__inner__txt--p">相続不動産サポートセンターを運営している<br class="d-md-inline d-none">株式会社シンエイの会社情報をご案内いたします。</p>
 </div>
 <div class="links__list__inner__img">
 <img src="<?php e_img_url(); ?>/illust_company.png" alt="">
@@ -520,7 +527,7 @@
 </article>
 </div>
 <!-- blog__list -->
-<div class="mt-5 text-center">
+<div class="mt-md-5 mt-3 text-center">
 <a class="btn btn-secondary" href="<?php e_home_url(); ?>/blog/"><i class="fas fa-caret-right"></i>一覧を見る</a>
 </div>
 </div>
@@ -529,16 +536,16 @@
 <section class="area sec">
 <div class="container position-relative">
 <h2 class="ttl__h2 text-center">対応エリア</h2>
+<img class="area__map" src="<?php e_img_url(); ?>/area_map.png" alt="">
 <div class="area__list">
 <h3>大阪府全域</h3>
 <p>大阪市(⻄区-浪速区- ⻄成区- 港区- 此花区- ⻄淀川区- 東淀川区- 東成区- 天王寺区-住吉区-大正区- 旭区-福島区- 都島区- 城東区- 生野区- 阿倍野区- 東住吉区-淀川区-鶴見区- 平野区- 住之江区-中央区- 北区)堺市( 中区- 東区- ⻄区- 南区- 北区- 美原区)豊中市,高槻市,枚方市,東大阪市,吹田市,茨木市,岸和田市,寝屋川市,八尾市,池田市,箕面市,豊能郡,能勢町,豊能町,摂津市,三島郡,島本町,泉大津市,和泉市,高石市,泉北郡,忠岡町,貝塚市,泉佐野市,泉南市,阪南市,泉南郡,熊取町,田尻町,岬町,守口市,大東市,門真市,四條畷市,交野市,柏原市,富田林市,河内⻑野市,松原市,羽曳野市,藤井寺市,大阪狭山市,南河内郡,太子町,河南町,千早赤阪村</p>
 </div>
-<img class="area__map" src="<?php e_img_url(); ?>/area_map.png" alt="">
 </div>
 </section>
 
 <section class="message">
-<div class="conatiner">
+<div class="container">
 <h2 class="message__ttl">
 <span>相続不動産サポートセンターの想い</span>
 </h2>
@@ -559,7 +566,7 @@
 <br>当社のサービスを1人でも多くの相続に悩まれている方に提供していきたいと考えております。
 <br>今後とも相続不動産サポートセンターを何卒よろしくお願い申し上げます。</p>
 </div>
-<img class="w-100" src="<?php e_img_url(); ?>/seo_bottom_pc.png" alt="">
+<img class="img-switch" class="w-100" src="<?php e_img_url(); ?>/seo_bottom_pc.png" alt="">
 </section>
 
 <?php get_footer();

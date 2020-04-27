@@ -32,6 +32,26 @@ h5 {
 
 .sec {
   padding: 60px 0;
+  @include media-breakpoint-down(md) {
+    padding: 2rem 0;
+  }
+}
+
+.kv {
+  padding: 4rem 0;
+  text-align: center;
+  @include media-breakpoint-down(md) {
+    padding: 2.5rem 0;
+  }
+  h2 {
+    font-size: 3rem;
+    margin: 0;
+    color: $primary;
+    letter-spacing: 0.1em;
+    @include media-breakpoint-down(md) {
+      font-size: 2rem;
+    }
+  }
 }
 
 .m-plus {
@@ -80,8 +100,16 @@ h5 {
   background-repeat: repeat;
 }
 
+.bg-gray {
+  background-color: #f6f9f4;
+}
+
 .ttl__h2 {
   font-size: 2rem;
   font-weight: 500;
   margin: 0 0 1.3em;
+  @include media-breakpoint-down(md) {
+    font-size: 1.6rem;
+    margin: 0 0 1em;
+  }
 }
