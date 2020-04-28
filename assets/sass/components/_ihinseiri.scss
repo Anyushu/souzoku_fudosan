@@ -1,0 +1,21 @@
+.ihin {
+  &__souba {
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      align-items: center;
+      &__inner {
+        width: 32%;
+        margin-bottom: 2%;
+        @include media-breakpoint-down(md) {
+          width: 100%;
+          margin-bottom: 4%;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

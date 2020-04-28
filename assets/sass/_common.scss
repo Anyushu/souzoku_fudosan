@@ -76,6 +76,7 @@ h5 {
     min-width: 260px;
     text-align: center;
     box-shadow: 1px 2px 2px 0 rgba($black, 0.1);
+    border: solid 1px rgba($black, 0.1);
     font-weight: 500;
     i {
       position: absolute;
@@ -90,7 +91,7 @@ h5 {
       text-align: center;
       line-height: 18px;
       border-radius: 50%;
-      letter-spacing: -3px;
+      letter-spacing: 0;
     }
   }
 }
@@ -111,5 +112,43 @@ h5 {
   @include media-breakpoint-down(md) {
     font-size: 1.6rem;
     margin: 0 0 1em;
+  }
+}
+
+.ttl__h3 {
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding-left: 1rem;
+  border-left: solid 4px $primary;
+  margin-bottom: 1em;
+  @include media-breakpoint-down(md) {
+    font-size: 1.2rem;
+    padding-left: 0.8rem;
+  }
+}
+
+.ttl__h3__2 {
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+  @include media-breakpoint-down(md) {
+    font-size: 1.2rem;
+    text-indent: -2em;
+    padding-left: 2em;
+  }
+  span {
+    text-indent: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.5em;
+    height: 1.5em;
+    line-height: 1.5em;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    background-color: $primary;
+    font-size: 1rem;
+    color: $white;
+    text-align: center;
+    letter-spacing: 0;
   }
 }

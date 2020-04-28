@@ -100,3 +100,11 @@ add_filter('allow_major_auto_core_updates', '__return_false');
 add_filter('allow_minor_auto_core_updates', '__return_true');
 add_filter('auto_update_theme', '__return_false');
 add_filter('auto_update_plugin', '__return_false');
+
+// ログイン画面のロゴ変更
+function login_logo()
+{
+    $logo = get_template_directory_uri().'/lib/images/logo_admin.png';
+    echo '<style type="text/css">.login h1 a{background-image: url('.$logo.');background-size: 300px;height: auto;width: 300px;}</style>';
+}
+add_action('login_head', 'login_logo');

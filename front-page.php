@@ -53,7 +53,7 @@
 </div>
 </section>
 
-<section class="sec reason">
+<section id="reason" class="sec reason">
 <div class="container">
 <div class="reason__inner">
 <h2 class="reason__inner__h2">相続不動産サポートセンターが<span>選ばれる8つ理由</span></h2>
@@ -110,7 +110,7 @@
 <img src="<?php e_img_url(); ?>/reson_img_5.png" alt="">
 </div>
 <div class="reason__inner__list__end__wrap__content__txt">
-<h3><span>5</span>相続相談件数<br>1000件以上</h3>
+<h3><span>5</span>相続相談件数<br class="d-md-inline d-none">1000件以上</h3>
 <p>相談料が無料というのも大きくあり、相談件数が年々増えております。今では毎月100件以上相談が寄せられます。その一つ一つに丁寧にご対応しております。</p>
 </div>
 </div>
@@ -130,7 +130,7 @@
 <img src="<?php e_img_url(); ?>/reson_img_7.png" alt="">
 </div>
 <div class="reason__inner__list__end__wrap__content__txt">
-<h3><span>7</span>不動産を高値で売却<br>することができる！</h3>
+<h3><span>7</span>不動産を高値で売却<br class="d-md-inline d-none">することができる！</h3>
 <p>不動産の資産価値を算出する際に他社の場合、士業が資産価値を算出するので、評価額しかみない傾向があります。そうすると必然的に資産価値は低くなり、結果安く売却することになります。一方当社は不動産の専門家が在籍しているので、不動産の資産価値を実勢価格で算出するため、他社より高値で売却することができます。</p>
 </div>
 </div>
@@ -164,7 +164,6 @@
 <h2 class="ttl__h2 text-center">売却例</h2>
 <div class="case__list">
 <div class="case__list__inner">
-<a href="">
 <h3 class="case__list__inner__ttl">
 <span class="text-primary">ケース1</span>
 <span class="badge badge-pill badge-primary case__list__inner__ttl--area">大阪市浪速区</span>
@@ -181,70 +180,65 @@
 <br>売却額：<span class="text-primary">2800万</span></p>
 </div>
 </div>
-</a>
 </div>
 <!-- case__list__inner -->
 <div class="case__list__inner">
-<a href="">
 <h3 class="case__list__inner__ttl">
 <span class="text-primary">ケース2</span>
-<span class="badge badge-pill badge-primary case__list__inner__ttl--area">大阪市浪速区</span>
+<span class="badge badge-pill badge-primary case__list__inner__ttl--area">大阪市天王寺区</span>
 </h3>
 <div class="case__list__inner__info">
 <div class="case__list__inner__info__img">
 <img src="<?php e_img_url(); ?>/case_img_2.png" alt="">
 </div>
 <div class="case__list__inner__info__txt">
-<p>物件種別：マンション
-<br>築年数：60年
-<br>面積：60㎡
-<br>期間：2ヶ月
-<br>売却額：<span class="text-primary">2800万</span></p>
+<p>物件種別：戸建て
+<br>築年数：40年
+<br>土地：60㎡
+<br>建物：3階建て
+<br>期間：1ヶ月
+<br>売却額：<span class="text-primary">3500万</span></p>
 </div>
 </div>
-</a>
 </div>
 <!-- case__list__inner -->
 <div class="case__list__inner mb-md-0">
-<a href="">
 <h3 class="case__list__inner__ttl">
 <span class="text-primary">ケース3</span>
-<span class="badge badge-pill badge-primary case__list__inner__ttl--area">大阪市浪速区</span>
+<span class="badge badge-pill badge-primary case__list__inner__ttl--area">大阪市城東区</span>
 </h3>
 <div class="case__list__inner__info">
 <div class="case__list__inner__info__img">
 <img src="<?php e_img_url(); ?>/case_img_3.png" alt="">
 </div>
 <div class="case__list__inner__info__txt">
-<p>物件種別：マンション
-<br>築年数：60年
-<br>面積：60㎡
-<br>期間：2ヶ月
-<br>売却額：<span class="text-primary">2800万</span></p>
+<p>マンション
+<br>築年数：45年
+<br>面積：75㎡
+<br>期間：1ヶ月
+<br>売却額：<span class="text-primary">3000万</span></p>
 </div>
 </div>
-</a>
 </div>
 <!-- case__list__inner -->
 <div class="case__list__inner mb-0">
-<a href="">
 <h3 class="case__list__inner__ttl">
 <span class="text-primary">ケース4</span>
-<span class="badge badge-pill badge-primary case__list__inner__ttl--area">大阪市浪速区</span>
+<span class="badge badge-pill badge-primary case__list__inner__ttl--area">豊中市</span>
 </h3>
 <div class="case__list__inner__info">
 <div class="case__list__inner__info__img">
 <img src="<?php e_img_url(); ?>/case_img_4.png" alt="">
 </div>
 <div class="case__list__inner__info__txt">
-<p>物件種別：マンション
-<br>築年数：60年
-<br>面積：60㎡
+<p>物件種別：戸建て
+<br>築年数：40年
+<br>土地：82㎡
+<br>建物：2階建て
 <br>期間：2ヶ月
-<br>売却額：<span class="text-primary">2800万</span></p>
+<br>売却額：<span class="text-primary">3500万</span></p>
 </div>
 </div>
-</a>
 </div>
 <!-- case__list__inner -->
 </div>
@@ -276,7 +270,7 @@
 </div>
 </a>
 <!-- links__list__inner -->
-<a class="links__list__inner" href="<?php e_home_url(); ?>/price/">
+<a class="links__list__inner" href="<?php e_home_url(); ?>/staff/">
 <div class="links__list__inner__txt">
 <p class="links__list__inner__txt--ttl">スタッフ紹介</p>
 <p class="links__list__inner__txt--p">相続不動産サポートセンターに<br class="d-md-inline d-none">在籍している専門家などのスタッフを<br class="d-md-inline d-none">ご紹介いたします。</p>
@@ -286,7 +280,7 @@
 </div>
 </a>
 <!-- links__list__inner -->
-<a class="links__list__inner" href="<?php e_home_url(); ?>/price/">
+<a class="links__list__inner" href="<?php e_home_url(); ?>/partners/">
 <div class="links__list__inner__txt">
 <p class="links__list__inner__txt--ttl">提携業者募集</p>
 <p class="links__list__inner__txt--p">相続不動産サポートセンターでは<br class="d-md-inline d-none">随時提携業者を募集しています。<br class="d-md-inline d-none">興味がございましたら、ご覧ください。</p>
@@ -296,7 +290,7 @@
 </div>
 </a>
 <!-- links__list__inner -->
-<a class="links__list__inner" href="<?php e_home_url(); ?>/price/">
+<a class="links__list__inner" href="<?php e_home_url(); ?>/company/">
 <div class="links__list__inner__txt">
 <p class="links__list__inner__txt--ttl">会社案内</p>
 <p class="links__list__inner__txt--p">相続不動産サポートセンターを運営している<br class="d-md-inline d-none">株式会社シンエイの会社情報をご案内いたします。</p>
@@ -310,7 +304,7 @@
 </div>
 </section>
 
-<section class="sec useful">
+<section id="useful" class="sec useful">
 <div class="container">
 <h2 class="ttl__h2 text-center">お役立ち情報</h2>
 <div class="useful__list">
@@ -318,11 +312,11 @@
 <h3 class="useful__list__inner__ttl">相続トラブルでお困りの方へ</h3>
 <div class="useful__list__inner__info">
 <div class="useful__list__inner__info__img">
-<img src="<?php e_img_url(); ?>/useful_img_1.png" alt="">
+<img src="<?php e_img_url(); ?>/useful_img_1.png" alt="相続トラブルでお困りの方へ">
 </div>
 <div class="useful__list__inner__info__txt">
 <p>大阪府内で相続トラブルでお困りの方はこちらのページをご覧ください。きっと今お抱えの悩みは解決されると思います。</p>
-<a href="">
+<a href="<?php e_img_url(); ?>/trouble/">
 <i class="fas fa-caret-right"></i>
 <span>詳しくはこちら</span>
 </a>
@@ -334,11 +328,11 @@
 <h3 class="useful__list__inner__ttl">相続手続きについて</h3>
 <div class="useful__list__inner__info">
 <div class="useful__list__inner__info__img">
-<img src="<?php e_img_url(); ?>/useful_img_2.png" alt="">
+<img src="<?php e_img_url(); ?>/useful_img_2.png" alt="相続手続きについて">
 </div>
 <div class="useful__list__inner__info__txt">
 <p>大阪府内で相続手続きをこれからされる方、今後する予定の方、している最中で分からなくなった方、こちらのページをご覧ください。</p>
-<a href=""><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
+<a href="<?php e_home_url(); ?>/flow/"><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
 </div>
 </div>
 </div>
@@ -347,11 +341,11 @@
 <h3 class="useful__list__inner__ttl">相続税について</h3>
 <div class="useful__list__inner__info">
 <div class="useful__list__inner__info__img">
-<img src="<?php e_img_url(); ?>/useful_img_3.png" alt="">
+<img src="<?php e_img_url(); ?>/useful_img_3.png" alt="相続税について">
 </div>
 <div class="useful__list__inner__info__txt">
 <p>相続税は非常に複雑で一般の方からすると日常的なことではないので、悩まれる方が非常に多いです。このページでは、相続税について分かりやすく解決しています。</p>
-<a href=""><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
+<a href="<?php e_home_url(); ?>/tax/"><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
 </div>
 </div>
 </div>
@@ -360,11 +354,11 @@
 <h3 class="useful__list__inner__ttl">相続不動産の管理・清掃について</h3>
 <div class="useful__list__inner__info">
 <div class="useful__list__inner__info__img">
-<img src="<?php e_img_url(); ?>/useful_img_4.png" alt="">
+<img src="<?php e_img_url(); ?>/useful_img_4.png" alt="相続不動産の管理・清掃について">
 </div>
 <div class="useful__list__inner__info__txt">
 <p>相続不動産で問題なる一つに物件の管理や清掃はどうなるのかという問題です。この問題も非常に悩ましいことですが、このぺージで詳しく解説しているので、ご覧ください。</p>
-<a href=""><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
+<a href="<?php e_home_url(); ?>/kanri/"><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
 </div>
 </div>
 </div>
@@ -373,11 +367,11 @@
 <h3 class="useful__list__inner__ttl">遺品整理について</h3>
 <div class="useful__list__inner__info">
 <div class="useful__list__inner__info__img">
-<img src="<?php e_img_url(); ?>/useful_img_5.png" alt="">
+<img src="<?php e_img_url(); ?>/useful_img_5.png" alt="遺品整理について">
 </div>
 <div class="useful__list__inner__info__txt">
 <p>相続不動産に関連する遺品整理ですが、相続不動産の相談や手続きができる業者で遺品整理までできる業者は少ないです。当社は遺品整理もできます。(大阪府内のみ)このぺージで説明しているので、ご覧ください。</p>
-<a href=""><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
+<a href="<?php e_home_url(); ?>/ihinseiri/"><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
 </div>
 </div>
 </div>
@@ -386,11 +380,11 @@
 <h3 class="useful__list__inner__ttl">不用品回収について</h3>
 <div class="useful__list__inner__info">
 <div class="useful__list__inner__info__img">
-<img src="<?php e_img_url(); ?>/useful_img_6.png" alt="">
+<img src="<?php e_img_url(); ?>/useful_img_6.png" alt="不用品回収について">
 </div>
 <div class="useful__list__inner__info__txt">
 <p>相続不動産に関連する不用品回収ですが、相続不動産の相談や手続きができる業者で不用品回収までできる業者は少ないです。当社は不用品回収もできます。(大阪府内のみ)このぺージで説明しているので、ご覧ください。</p>
-<a href=""><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
+<a href="<?php e_home_url(); ?>/fuyouhin/"><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
 </div>
 </div>
 </div>
@@ -399,13 +393,13 @@
 <h3 class="useful__list__inner__ttl">空家買取について</h3>
 <div class="useful__list__inner__info">
 <div class="useful__list__inner__info__img">
-<img src="<?php e_img_url(); ?>/useful_img_7.png" alt="">
+<img src="<?php e_img_url(); ?>/useful_img_7.png" alt="空家買取について">
 </div>
 <div class="useful__list__inner__info__txt">
 <p>当社は空家買取本舗というサイトを運営しております。昨今の日本で社会問題にもなっている空き家問題。
 <br>この問題を解決すべく当サービスを提供しています。空き家買取は単純な問題ではなく、色んな要素が複雑に絡み合った、非常に込み入った問題です。それを当社ではゼロからご相談にのり、問題を解決しています。
 <br>そんな空き家買取のサービス内容や情報をご案内しておりますので、ご覧ください。</p>
-<a href=""><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
+<a href="<?php e_home_url(); ?>/akiyakaitori/"><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
 </div>
 </div>
 </div>
@@ -419,62 +413,38 @@
 <div class="container">
 <h2 class="ttl__h2 text-center">ブログ</h2>
 <div class="blog__list">
+<?php
+$args = [
+    'posts_per_page' => 4,
+    'post_type' => 'post',
+    'orderby' => 'date',
+    'order' => 'DESC'
+];
+$posts = get_posts($args);
+foreach ($posts as $post): setup_postdata($post);
+$t = get_the_title();
+$cat_name = get_the_category()[0]->name;
+if (has_post_thumbnail()) {
+    $i = get_the_post_thumbnail_url(get_the_ID(), 'large');
+} else {
+    $i = get_template_directory_uri().'/lib/images/no_img.png';
+}
+?>
 <article class="blog__list__inner">
 <a href="">
 <div class="blog__list__inner__meta">
-<span class="blog__list__inner__meta--time">2019.09.30</span>
-<span class="blog__list__inner__meta--cat">カテゴリー</span>
+<span class="blog__list__inner__meta--time"><?php the_time('Y年m月d日') ?></span>
+<span class="blog__list__inner__meta--cat"><?php echo $cat_name; ?></span>
 </div>
 <div class="blog__list__inner__img">
-<img src="<?php e_img_url(); ?>/no_img.png" alt="">
+<img src="<?php echo $i; ?>" alt="<?php echo $t; ?>">
 </div>
 <div class="blog__list__inner__ttl">
-<p>タイトルタイトルタイトルタイトルタイトルタイトル</p>
+<p><?php echo $t; ?></p>
 </div>
 </a>
 </article>
-<article class="blog__list__inner">
-<a href="">
-<div class="blog__list__inner__meta">
-<span class="blog__list__inner__meta--time">2019.09.30</span>
-<span class="blog__list__inner__meta--cat">カテゴリー</span>
-</div>
-<div class="blog__list__inner__img">
-<img src="<?php e_img_url(); ?>/no_img.png" alt="">
-</div>
-<div class="blog__list__inner__ttl">
-<p>タイトルタイトルタイトルタイトルタイトルタイトル</p>
-</div>
-</a>
-</article>
-<article class="blog__list__inner">
-<a href="">
-<div class="blog__list__inner__meta">
-<span class="blog__list__inner__meta--time">2019.09.30</span>
-<span class="blog__list__inner__meta--cat">カテゴリー</span>
-</div>
-<div class="blog__list__inner__img">
-<img src="<?php e_img_url(); ?>/no_img.png" alt="">
-</div>
-<div class="blog__list__inner__ttl">
-<p>タイトルタイトルタイトルタイトルタイトルタイトル</p>
-</div>
-</a>
-</article>
-<article class="blog__list__inner">
-<a href="">
-<div class="blog__list__inner__meta">
-<span class="blog__list__inner__meta--time">2019.09.30</span>
-<span class="blog__list__inner__meta--cat">カテゴリー</span>
-</div>
-<div class="blog__list__inner__img">
-<img src="<?php e_img_url(); ?>/no_img.png" alt="">
-</div>
-<div class="blog__list__inner__ttl">
-<p>タイトルタイトルタイトルタイトルタイトルタイトル</p>
-</div>
-</a>
-</article>
+<?php endforeach; wp_reset_postdata(); ?>
 </div>
 <!-- blog__list -->
 <div class="mt-md-5 mt-3 text-center">

@@ -33,7 +33,7 @@
 <li><a href="<?php e_home_url(); ?>/service/">サービス内容</a></li>
 <li><a href="<?php e_home_url(); ?>/staff/">スタッフ紹介</a></li>
 <li><a href="<?php e_home_url(); ?>/company/">会社案内</a></li>
-<li><a href="<?php e_home_url(); ?>/">お役立ち情報</a></li>
+<li><a href="<?php e_home_url(); ?>#useful">お役立ち情報</a></li>
 <li><a href="<?php e_home_url(); ?>/partners/">提携業者募集</a></li>
 <li><a href="<?php e_home_url(); ?>/blog/">ブログ</a></li>
 </ul>
@@ -41,9 +41,9 @@
 
 <div class="header__sp">
 <div class="header__sp__btn">
-<span></span>
-<span></span>
-<span></span>
+<span class="hum_1"></span>
+<span class="hum_2"></span>
+<span class="hum_3"></span>
 <span class="header__sp__btn--txt">メニュー</span>
 </div>
 <!-- header__sp__btn -->
@@ -54,7 +54,7 @@
 <li><a href="<?php e_home_url(); ?>/service/">サービス内容</a></li>
 <li><a href="<?php e_home_url(); ?>/staff/">スタッフ紹介</a></li>
 <li><a href="<?php e_home_url(); ?>/company/">会社案内</a></li>
-<li><a href="<?php e_home_url(); ?>/">お役立ち情報</a></li>
+<li><a href="<?php e_home_url(); ?>#useful">お役立ち情報</a></li>
 <li><a href="<?php e_home_url(); ?>/partners/">提携業者募集</a></li>
 <li><a href="<?php e_home_url(); ?>/blog/">ブログ</a></li>
 </ul>

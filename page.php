@@ -1,10 +1,13 @@
-<?php
-$home = esc_url(home_url());
-$wp_url = get_template_directory_uri();
-get_header(); ?>
-<section class="py-5">
+<?php get_header(); ?>
+<section class="kv">
 <div class="container">
-<?php the_content(); ?>
+<h2><?php the_title(); ?></h2>
 </div>
+</section>
+
+<section class="sec bg-gray">
+<div class="container">
+</div>
+<!-- container -->
 </section>
 <?php get_footer();

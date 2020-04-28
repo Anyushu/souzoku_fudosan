@@ -152,6 +152,17 @@
       }
       &.open {
         background-color: #f3fbed;
+        .hum_1 {
+          opacity: 0;
+        }
+        .hum_2 {
+          transform: rotate(45deg);
+        }
+        .hum_3 {
+          position: relative;
+          top: -9px;
+          transform: rotate(-45deg);
+        }
       }
     }
     &__menu {

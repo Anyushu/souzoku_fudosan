@@ -1,0 +1,114 @@
+.fuyouhin {
+  &__link {
+    .btn {
+      font-size: $font-size-sm;
+      @include media-breakpoint-down(md) {
+        width: 100%;
+      }
+    }
+  }
+  &__wrap {
+    background-color: $white;
+    box-sizing: border-box;
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+    @include media-breakpoint-down(md) {
+      padding: 2rem 1rem;
+    }
+    .small {
+      font-size: $font-size-sm;
+    }
+    &__toha {
+      &__flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-flow: row-reverse;
+        @include media-breakpoint-down(md) {
+          display: block;
+        }
+        &__img {
+          width: 48%;
+          @include media-breakpoint-down(md) {
+            width: 100%;
+            margin-bottom: 1.5rem;
+          }
+        }
+        &__txt {
+          width: 48%;
+          font-size: $font-size-sm;
+          @include media-breakpoint-down(md) {
+            width: 100%;
+          }
+        }
+      }
+      &__merit {
+        &__list {
+          margin: 0;
+          padding: 0;
+          display: flex;
+          justify-content: start;
+          flex-wrap: wrap;
+          align-items: center;
+          @include media-breakpoint-down(md) {
+            display: block;
+          }
+          ul {
+            display: block;
+            margin: 0;
+            padding: 0;
+            width: 50%;
+            @include media-breakpoint-down(md) {
+              width: 100%;
+            }
+            li {
+              box-sizing: border-box;
+              font-size: 1.2rem;
+              margin-bottom: 1em;
+              list-style: none;
+              @include media-breakpoint-down(md) {
+                font-size: 1rem;
+                text-indent: -2em;
+                padding-left: 2em;
+              }
+              span {
+                text-indent: 0;
+                display: inline-block;
+                vertical-align: middle;
+                width: 1.5em;
+                height: 1.5em;
+                line-height: 1.5em;
+                border-radius: 50%;
+                margin-right: 0.5rem;
+                background-color: $primary;
+                font-size: 1rem;
+                color: $white;
+                text-align: center;
+                letter-spacing: 0;
+              }
+            }
+          }
+        }
+      }
+    }
+    &__souba {
+      &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        &__inner {
+          width: 19%;
+          margin-bottom: 2%;
+          @include media-breakpoint-down(md) {
+            width: 49%;
+          }
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}

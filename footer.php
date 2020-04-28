@@ -59,7 +59,7 @@
 <div class="footer__wrap__links">
 <ul>
 <li><a href="<?php e_home_url(); ?>/">ホーム</a></li>
-<li><a href="<?php e_home_url(); ?>/reason/">選ばれる理由</a></li>
+<li><a href="<?php e_home_url(); ?>#reason">選ばれる理由</a></li>
 <li><a href="<?php e_home_url(); ?>/service/">サービス内容</a></li>
 <li><a href="<?php e_home_url(); ?>/staff/">スタッフ紹介</a></li>
 <li><a href="<?php e_home_url(); ?>/company/">会社案内</a></li>
@@ -73,10 +73,10 @@
 </ul>
 <ul>
 <li><a href="<?php e_home_url(); ?>">不用品回収について</a></li>
-<li><a href="<?php e_home_url(); ?>">空家買取について</a></li>
-<li><a href="<?php e_home_url(); ?>">提携業者募集</a></li>
-<li><a href="<?php e_home_url(); ?>">ブログ</a></li>
-<li><a href="<?php e_home_url(); ?>">無料相談はこちら</a></li>
+<li><a href="<?php e_home_url(); ?>/akiyakaitori/">空家買取について</a></li>
+<li><a href="<?php e_home_url(); ?>/partners/">提携業者募集</a></li>
+<li><a href="<?php e_home_url(); ?>/blog/">ブログ</a></li>
+<li><a href="<?php e_home_url(); ?>/contact/">無料相談はこちら</a></li>
 </ul>
 </div>
 </div>

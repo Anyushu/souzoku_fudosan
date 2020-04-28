@@ -1,0 +1,112 @@
+.akiyakaitori {
+  &__wrap {
+    background-color: $white;
+    box-sizing: border-box;
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+    @include media-breakpoint-down(md) {
+      padding: 2rem 1rem;
+    }
+    &__logo {
+      text-align: center;
+      @include media-breakpoint-down(md) {
+        box-sizing: border-box;
+        padding: 0 2rem;
+      }
+    }
+    &__youtube {
+      margin: 3rem auto;
+      max-width: 700px;
+    }
+    &__list {
+      &__inner {
+        margin-bottom: 3rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        h3 {
+          font-size: 1.5rem;
+          box-sizing: border-box;
+          padding-left: 1rem;
+          border-left: solid 4px $primary;
+          margin-bottom: 1em;
+          @include media-breakpoint-down(md) {
+            font-size: 1.3rem;
+          }
+        }
+        &__flex {
+          display: flex;
+          justify-content: space-between;
+          align-items: stretch;
+          flex-wrap: wrap;
+          flex-flow: row-reverse;
+          @include media-breakpoint-down(md) {
+            display: block;
+          }
+          &__img {
+            width: 50%;
+            @include media-breakpoint-down(md) {
+              width: 100%;
+              margin-bottom: 1rem;
+            }
+            img {
+              width: 100%;
+            }
+          }
+          &__txt {
+            width: 47%;
+            @include media-breakpoint-down(md) {
+              width: 100%;
+            }
+            p {
+              font-size: $font-size-sm;
+            }
+            &__box {
+              background-color: #f6f9f4;
+              box-sizing: border-box;
+              padding: 1.5rem;
+              border-radius: 0.5rem;
+              margin-bottom: 2rem;
+              @include media-breakpoint-down(md) {
+                padding: 1.5rem 1rem;
+              }
+              h4 {
+                box-sizing: border-box;
+                font-size: 1.25rem;
+                text-indent: -1.5em;
+                padding-left: 1.5em;
+                margin-bottom: 1em;
+                @include media-breakpoint-down(md) {
+                  font-size: 1rem;
+                }
+                &::before {
+                  content: "ー";
+                  font-weight: bold;
+                  color: $primary;
+                  margin-right: 0.5rem;
+                }
+              }
+              ul {
+                padding: 0;
+                margin: 0;
+                li {
+                  list-style: none;
+                  font-size: $font-size-sm;
+                  margin-bottom: 0.5rem;
+                  text-indent: -1.5em;
+                  padding-left: 1.5em;
+                  &::before {
+                    content: "●";
+                    color: $primary;
+                    margin-right: 0.5rem;
+                    font-size: 12px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
