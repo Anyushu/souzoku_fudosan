@@ -92,6 +92,8 @@
           flex-wrap: wrap;
           &__img {
             width: 48%;
+            overflow: hidden;
+            border-radius: 0.5rem;
             @include media-breakpoint-down(md) {
               width: 100%;
             }

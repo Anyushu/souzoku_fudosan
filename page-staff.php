@@ -121,7 +121,7 @@ if (has_post_thumbnail()) {
 }
 ?>
 <div class="staff__wrap__prolist__inner">
-<h3><?php echo $company; ?>｜<?php echo $t; ?></h3>
+<h3><?php if ($company !== '' && $company !== null) {echo $company.'｜';} ?><?php echo $t; ?></h3>
 <div class="staff__wrap__prolist__inner__content">
 <div class="staff__wrap__prolist__inner__content__img">
 <img src="<?php echo $i; ?>" alt="<?php echo $t; ?>">

@@ -27,7 +27,7 @@
 <a class="btn btn-primary font-weight-bold text-white w-100" href="<?php e_home_url(); ?>/contact/"><i class="far fa-envelope mr-2"></i>無料相談はこちら</a>
 </div>
 <div class="cta__inner__right__btn__sp d-md-none d-block">
-<a class="d-block text-center" href="<?php e_home_url(); ?>/contatc/">
+<a class="d-block text-center" href="<?php e_home_url(); ?>/contact/">
 <img class="w-100" src="<?php e_img_url(); ?>/btn_contact_sp.png" srcset="<?php e_img_url(); ?>/btn_contact_sp.png 1x, <?php e_img_url(); ?>/btn_contact_sp@2x.png 2x" alt="">
 </a>
 </div>
@@ -65,14 +65,14 @@
 <li><a href="<?php e_home_url(); ?>/company/">会社案内</a></li>
 </ul>
 <ul>
-<li><a href="<?php e_home_url(); ?>">相続トラブルでお困りの方へ</a></li>
-<li><a href="<?php e_home_url(); ?>">相続手続きについて</a></li>
-<li><a href="<?php e_home_url(); ?>">相続税について</a></li>
-<li><a href="<?php e_home_url(); ?>">相続不動産の管理・清掃について</a></li>
-<li><a href="<?php e_home_url(); ?>">遺品整理について</a></li>
+<li><a href="<?php e_home_url(); ?>/trouble/">相続トラブルでお困りの方へ</a></li>
+<li><a href="<?php e_home_url(); ?>/flow/">相続手続きについて</a></li>
+<li><a href="<?php e_home_url(); ?>/tax/">相続税について</a></li>
+<li><a href="<?php e_home_url(); ?>/kanri/">相続不動産の管理・清掃について</a></li>
+<li><a href="<?php e_home_url(); ?>/ihinseiri/">遺品整理について</a></li>
 </ul>
 <ul>
-<li><a href="<?php e_home_url(); ?>">不用品回収について</a></li>
+<li><a href="<?php e_home_url(); ?>/fuyouhin/">不用品回収について</a></li>
 <li><a href="<?php e_home_url(); ?>/akiyakaitori/">空家買取について</a></li>
 <li><a href="<?php e_home_url(); ?>/partners/">提携業者募集</a></li>
 <li><a href="<?php e_home_url(); ?>/blog/">ブログ</a></li>

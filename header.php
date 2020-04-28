@@ -61,7 +61,7 @@
 <a class="header__sp__menu__tel" href="tel:0120-200-567">
 <img src="<?php e_img_url(); ?>/btn_tel_sp.png" alt="">
 </a>
-<a class="header__sp__menu__contact" href="<?php e_home_url(); ?>/contatc/">
+<a class="header__sp__menu__contact" href="<?php e_home_url(); ?>/contact/">
 <img class="w-100" src="<?php e_img_url(); ?>/btn_contact_sp.png" srcset="<?php e_img_url(); ?>/btn_contact_sp.png 1x, <?php e_img_url(); ?>/btn_contact_sp@2x.png 2x" alt="">
 </a>
 </nav>

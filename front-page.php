@@ -247,7 +247,7 @@
 <!-- container -->
 </section>
 
-<section class="sec links">
+<div class="sec links">
 <div class="container">
 <div class="links__list">
 <a class="links__list__inner" href="<?php e_home_url(); ?>/price/">
@@ -302,7 +302,7 @@
 <!-- links__list__inner -->
 </div>
 </div>
-</section>
+</div>
 
 <section id="useful" class="sec useful">
 <div class="container">
@@ -427,7 +427,7 @@ if (has_post_thumbnail()) {
     $i = get_template_directory_uri().'/lib/images/no_img.png';
 }
 ?>
-<article class="blog__list__inner">
+<div class="blog__list__inner">
 <a href="">
 <div class="blog__list__inner__meta">
 <span class="blog__list__inner__meta--time"><?php the_time('Y年m月d日') ?></span>
@@ -440,7 +440,7 @@ if (has_post_thumbnail()) {
 <p><?php echo $t; ?></p>
 </div>
 </a>
-</article>
+</div>
 <?php endforeach; wp_reset_postdata(); ?>
 </div>
 <!-- blog__list -->

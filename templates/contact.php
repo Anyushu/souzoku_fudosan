@@ -40,8 +40,8 @@
 <!-- contact__link__tel -->
 <div class="contact__link__btn">
 <p>お電話が苦手という方は<br>まずはメールにてご相談してみてください。</p>
-<a class="btn btn-light d-block" href="<?php e_home_url(); ?>/contatc/"><i class="far fa-envelope mr-2"></i>無料相談はこちら</a>
-<a class="d-md-none d-block text-center" href="<?php e_home_url(); ?>/contatc/">
+<a class="btn btn-light d-block" href="<?php e_home_url(); ?>/contact/"><i class="far fa-envelope mr-2"></i>無料相談はこちら</a>
+<a class="d-md-none d-block text-center" href="<?php e_home_url(); ?>/contact/">
 <img class="w-100" src="<?php e_img_url(); ?>/btn_contact_sp.png" srcset="<?php e_img_url(); ?>/btn_contact_sp.png 1x, <?php e_img_url(); ?>/btn_contact_sp@2x.png 2x" alt="">
 </a>
 </div>
