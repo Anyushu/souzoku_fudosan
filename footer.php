@@ -1,5 +1,5 @@
 </main>
-<?php if (!is_page('partners')): ?>
+<?php if (!is_page('partners') && !is_page('contact')): ?>
 <section class="cta sec bg-square">
 <div class="container">
 <h2 class="ttl__h2 text-center">お問い合わせ</h2>

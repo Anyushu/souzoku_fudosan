@@ -1,0 +1,162 @@
+.flow {
+  &__wrap {
+    background-color: $white;
+    box-sizing: border-box;
+    padding: 3rem 2rem;
+    margin: 3rem 0;
+    border-radius: 0.5rem;
+    @include media-breakpoint-down(md) {
+      padding: 2rem 1rem;
+    }
+    &__ttl {
+      text-align: center;
+      font-size: 1.2rem;
+      font-weight: normal;
+      margin-bottom: 3rem;
+      @include media-breakpoint-down(md) {
+        font-size: $font-size-sm;
+      }
+      span {
+        display: block;
+        font-size: 2em;
+        font-weight: 500;
+      }
+    }
+    &__read {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      flex-flow: row-reverse;
+      margin-bottom: 3rem;
+      @include media-breakpoint-down(md) {
+        display: block;
+      }
+      &__img {
+        width: 48%;
+        @include media-breakpoint-down(md) {
+          width: 100%;
+        }
+      }
+      &__txt {
+        width: 48%;
+        @include media-breakpoint-down(md) {
+          width: 100%;
+          margin-top: 1.5rem;
+        }
+        p {
+          font-size: $font-size-sm;
+        }
+      }
+    }
+    &__table {
+      margin-bottom: 2rem;
+      &__ttl {
+        box-sizing: border-box;
+        padding-left: 0.5em;
+        border-left: solid 3px $primary;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 1em;
+        @include media-breakpoint-down(md) {
+          font-size: 1.3rem;
+        }
+      }
+      .table {
+        th,
+        td {
+          font-size: $font-size-sm;
+          box-sizing: border-box;
+          padding: 1rem 2em;
+          vertical-align: middle;
+          border-top: solid 1px $body-color;
+          font-weight: normal;
+          @include media-breakpoint-down(md) {
+            padding: $font-size-sm;
+          }
+        }
+        th {
+          border-right: solid 1px #e7e7e7;
+          @include media-breakpoint-down(md) {
+            white-space: nowrap;
+          }
+        }
+        thead {
+          th {
+            background-color: $primary;
+            color: $white;
+            text-align: center;
+            border-bottom: 0;
+            font-weight: 500;
+          }
+        }
+        tbody {
+          tr {
+            &:last-child {
+              th,
+              td {
+                border-bottom: solid 1px $body-color;
+              }
+            }
+          }
+        }
+      }
+    }
+    &__list {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: wrap;
+      &__inner {
+        width: 48%;
+        box-sizing: border-box;
+        padding: 2rem 0;
+        border-bottom: solid 1px #c8c8c8;
+        @include media-breakpoint-down(md) {
+          width: 100%;
+          padding: 2rem 0;
+        }
+        &__ttl {
+          font-size: 1.2rem;
+          margin-bottom: 1em;
+          @include media-breakpoint-down(md) {
+            font-size: 1rem;
+          }
+          &::before {
+            content: "ー";
+            color: $primary;
+            margin-right: 5px;
+          }
+        }
+        &__box {
+          display: flex;
+          justify-content: flex-start;
+          flex-wrap: nowrap;
+          align-items: start;
+          &__img {
+            width: 100px;
+            margin-right: 1rem;
+            @include media-breakpoint-down(md) {
+              width: 80px;
+            }
+            img {
+              width: 100%;
+            }
+          }
+          &__txt {
+            width: calc(100% - 1rem - 100px);
+            @include media-breakpoint-down(md) {
+              width: calc(100% - 1rem - 80px);
+            }
+            p {
+              font-size: 13px;
+              @include media-breakpoint-down(md) {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

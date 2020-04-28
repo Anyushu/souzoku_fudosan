@@ -28,14 +28,14 @@
 <!-- header__top -->
 <nav class="header__nav">
 <ul class="container">
-<li><a href="">ホーム</a></li>
-<li><a href="">料金表</a></li>
-<li><a href="">サービス内容</a></li>
-<li><a href="">スタッフ紹介</a></li>
-<li><a href="">会社案内</a></li>
-<li><a href="">お役立ち情報</a></li>
-<li><a href="">提携業者募集</a></li>
-<li><a href="">ブログ</a></li>
+<li><a href="<?php e_home_url(); ?>/">ホーム</a></li>
+<li><a href="<?php e_home_url(); ?>/price/">料金表</a></li>
+<li><a href="<?php e_home_url(); ?>/service/">サービス内容</a></li>
+<li><a href="<?php e_home_url(); ?>/staff/">スタッフ紹介</a></li>
+<li><a href="<?php e_home_url(); ?>/company/">会社案内</a></li>
+<li><a href="<?php e_home_url(); ?>/">お役立ち情報</a></li>
+<li><a href="<?php e_home_url(); ?>/partners/">提携業者募集</a></li>
+<li><a href="<?php e_home_url(); ?>/blog/">ブログ</a></li>
 </ul>
 </nav>
 
@@ -49,14 +49,14 @@
 <!-- header__sp__btn -->
 <nav class="header__sp__menu">
 <ul>
-<li><a href="">ホーム</a></li>
-<li><a href="">料金表</a></li>
-<li><a href="">サービス内容</a></li>
-<li><a href="">スタッフ紹介</a></li>
-<li><a href="">会社案内</a></li>
-<li><a href="">お役立ち情報</a></li>
-<li><a href="">提携業者募集</a></li>
-<li><a href="">ブログ</a></li>
+<li><a href="<?php e_home_url(); ?>/">ホーム</a></li>
+<li><a href="<?php e_home_url(); ?>/price/">料金表</a></li>
+<li><a href="<?php e_home_url(); ?>/service/">サービス内容</a></li>
+<li><a href="<?php e_home_url(); ?>/staff/">スタッフ紹介</a></li>
+<li><a href="<?php e_home_url(); ?>/company/">会社案内</a></li>
+<li><a href="<?php e_home_url(); ?>/">お役立ち情報</a></li>
+<li><a href="<?php e_home_url(); ?>/partners/">提携業者募集</a></li>
+<li><a href="<?php e_home_url(); ?>/blog/">ブログ</a></li>
 </ul>
 <a class="header__sp__menu__tel" href="tel:0120-200-567">
 <img src="<?php e_img_url(); ?>/btn_tel_sp.png" alt="">

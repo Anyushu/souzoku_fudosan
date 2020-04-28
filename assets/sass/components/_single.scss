@@ -1,0 +1,87 @@
+.single {
+  &__header {
+    &__time {
+      font-size: 12px;
+    }
+    &__cat {
+      font-size: 12px;
+      color: $primary;
+    }
+    &__ttl {
+      color: $primary;
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin: 1rem 0 1em;
+    }
+  }
+  &__main {
+    &__fig {
+      margin: 0 0 3rem;
+      display: block;
+      width: 100%;
+      img {
+        width: 100%;
+      }
+    }
+    &__inner {
+      font-size: $font-size-sm;
+      line-height: 1.7;
+      h2 {
+        font-size: 1.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: solid 2px $primary;
+      }
+      h3 {
+        font-size: 1.3rem;
+        box-sizing: border-box;
+        padding-left: 1rem;
+        border-left: solid 4px $primary;
+      }
+      h4 {
+        font-size: 1.1rem;
+        &::before {
+          content: "ー";
+          font-weight: bold;
+          margin-right: 0.5em;
+          color: $primary;
+        }
+      }
+      h2,
+      h3,
+      h4,
+      h5 {
+        margin: 2em 0 1em;
+        font-weight: normal;
+      }
+    }
+  }
+  &__foot {
+    &__sns {
+      display: flex;
+      justify-content: space-between;
+      align-items: stretch;
+      flex-wrap: nowrap;
+      a {
+        display: block;
+        color: $white;
+        text-align: center;
+        width: 32%;
+        line-height: 1;
+        box-sizing: border-box;
+        font-size: 1.5rem;
+        padding: 0.5rem 1em;
+        font-weight: bold;
+        border-radius: 0.5rem;
+      }
+      &__tw {
+        background-color: #1da1f2;
+      }
+      &__fb {
+        background-color: #2073ba;
+      }
+      &__li {
+        background-color: #00b900;
+      }
+    }
+  }
+}

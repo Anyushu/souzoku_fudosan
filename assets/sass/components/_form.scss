@@ -1,0 +1,60 @@
+.wpcf7-form {
+  position: relative;
+  display: block;
+  background-color: $white;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 3rem 2rem;
+  @include media-breakpoint-down(md) {
+    padding: 2rem 1rem;
+  }
+  p {
+    font-size: $font-size-sm;
+    margin-bottom: 2rem;
+  }
+  .table {
+    margin-bottom: 3rem;
+    tr:last-child {
+      th,td {
+        border-bottom: solid 1px #e1e1e1;
+      }
+    }
+    th,
+    td {
+      border-top: solid 1px #e1e1e1;
+      font-size: $font-size-sm;
+      box-sizing: border-box;
+      padding: 2em;
+      vertical-align: middle;
+      @include media-breakpoint-down(md) {
+        padding: 1em;
+        display: block;
+        width: 100%;
+        border: 0 !important;
+      }
+    }
+    th {
+      overflow: hidden;
+      font-weight: normal;
+      line-height: 1;
+      @include media-breakpoint-down(md) {
+        padding-bottom: 0;
+      }
+      .badge {
+        float: right;
+        color: $white;
+      }
+    }
+    td {
+      .form-control {
+        border: 0;
+        background-color: #f0f0f0;
+      }
+    }
+  }
+  .form-submit {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}

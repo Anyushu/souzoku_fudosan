@@ -1,22 +1,15 @@
 <?php get_header(); ?>
-<section class="kv bg-square-blue sec">
+<section class="kv">
 <div class="container">
-<h2 class="m-0">
-<img src="<?php e_img_url(); ?>/kv_blog.png" alt="買取実績">
-</h2>
+<h2>ブログ</h2>
 </div>
 </section>
-<?php
-if (function_exists('yoast_breadcrumb')) {
-    yoast_breadcrumb('<div id="breadcrumbs"><div class="container">', '</div></div>');
-}
-?>
-<section class="sec">
+
+<section class="sec bg-gray archive">
 <div class="container">
-<h2 class="ttl__h3"><?php single_cat_title(); ?></h2>
-<div class="blogmain">
-<div class="blogmain__inner">
-<div class="bloglist">
+<div class="archive__wrap">
+<div class="archive__wrap__post">
+<h2 class="ttl__h2"><?php single_cat_title(); ?></h2>
 <?php
 if (have_posts()):
 while (have_posts()): the_post();
@@ -30,33 +23,32 @@ if (has_post_thumbnail()) {
     $i = get_template_directory_uri().'/lib/images/no_img.png';
 }
 ?>
-<div class="bloglist__inner">
-<a class="bloglist__inner__link" href="<?php echo $permalink; ?>">
-<div class="bloglist__inner__link__img">
-<img class="w-100" src="<?php echo $i; ?>" alt="<?php echo $t; ?>">
+<div class="archive__wrap__post__inner">
+<a href="<?php echo $permalink; ?>">
+<div class="archive__wrap__post__inner__img">
+<img src="<?php echo $i; ?>" alt="<?php echo $t; ?>">
 </div>
-<div class="bloglist__inner__link__txt">
-<div class="bloglist__inner__link__txt__meta">
-<span class="small"><?php the_time('Y年n月j日'); ?></span>
-<span class="badge badge-sm badge-info"><?php echo $cat_name; ?></span>
+<div class="archive__wrap__post__inner__txt">
+<div class="archive__wrap__post__inner__txt__meta">
+<span class="archive__wrap__post__inner__txt__meta__time"><?php the_time('Y年m月d日'); ?></span>
+<span class="archive__wrap__post__inner__txt__meta__cat"><?php echo $cat_name; ?></span>
 </div>
-<h3 class="bloglist__inner__link__txt--h2"><?php echo $t; ?></h3>
+<h3><?php echo $t; ?></h3>
 </div>
+<span class="archive__wrap__post__inner__link"><i class="fas fa-caret-right"></i>続きを見る</span>
 </a>
 </div>
-<!-- bloglist__inner -->
+<!-- archive__wrap__post__inner -->
 <?php endwhile; endif; ?>
-</div>
-<!-- bloglist -->
 <?php wp_pagenavi(); ?>
 </div>
-<!-- blogmain__inner -->
-<aside class="blogmain__side">
+<!-- archive__wrap__post -->
+<div class="archive__wrap__side">
 <?php get_sidebar(); ?>
-</aside>
-<!-- blogmain__side -->
 </div>
-<!-- blogmain -->
+<!-- archive__wrap__side -->
+</div>
+<!-- archive__wrap -->
 </div>
 </section>
 <?php get_footer();
