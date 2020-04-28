@@ -93,7 +93,7 @@
 <br>最寄り駅：大阪メトロ谷町線谷町四丁目駅から徒歩2分
 <br>目印：ビル１階がりそな銀行
 <br>事務所地図：下記のグーグルマップにてご確認下さい。</p>
-<p class="mb-0">シンエイ住宅への無料相談は下記にて実施中です。
+<p class="mb-0">相続不動産サポートセンターへの無料相談は下記にて実施中です。
 <br>※場所が分かりづらい場合はTEL：0120-200-567にお問合せください。</p>
 <div class="embed-responsive embed-responsive-21by9 my-4 d-md-block d-none">
 <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5850.772954655377!2d135.51331064419804!3d34.68509614734943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfdd6efdda6d1900a!2z5qCq5byP5Lya56S-44K344Oz44Ko44Kk!5e0!3m2!1sja!2sjp!4v1588062050786!5m2!1sja!2sjp"></iframe>

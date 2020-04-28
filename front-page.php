@@ -316,10 +316,7 @@
 </div>
 <div class="useful__list__inner__info__txt">
 <p>大阪府内で相続トラブルでお困りの方はこちらのページをご覧ください。きっと今お抱えの悩みは解決されると思います。</p>
-<a href="<?php e_img_url(); ?>/trouble/">
-<i class="fas fa-caret-right"></i>
-<span>詳しくはこちら</span>
-</a>
+<a href="<?php e_home_url(); ?>/trouble/"><i class="fas fa-caret-right"></i><span>詳しくはこちら</span></a>
 </div>
 </div>
 </div>
@@ -486,7 +483,7 @@ if (has_post_thumbnail()) {
 <br>当社のサービスを1人でも多くの相続に悩まれている方に提供していきたいと考えております。
 <br>今後とも相続不動産サポートセンターを何卒よろしくお願い申し上げます。</p>
 </div>
-<img class="img-switch" class="w-100" src="<?php e_img_url(); ?>/seo_bottom_pc.png" alt="">
+<img class="img-switch w-100" src="<?php e_img_url(); ?>/seo_bottom_pc.png" alt="">
 </section>
 
 <?php get_footer();

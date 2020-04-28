@@ -112,3 +112,29 @@
     }
   }
 }
+
+.trouble {
+  &__table {
+    th,
+    td {
+      font-size: $font-size-sm;
+      box-sizing: border-box;
+      padding: 1em 2em;
+      border-bottom: solid 1px $body-color;
+      border-top: solid 1px $body-color;
+      vertical-align: middle;
+      @include media-breakpoint-down(md) {
+        display: block;
+        width: 100%;
+        padding: 0.8em;
+        border: 0;
+      }
+    }
+    th {
+      font-weight: 500;
+      background-color: $primary;
+      color: $white;
+      border-right: solid 1px #e7e7e7;
+    }
+  }
+}

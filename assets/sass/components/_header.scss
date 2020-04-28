@@ -1,5 +1,11 @@
 .header {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   box-shadow: 0 0 5px rgba($black, 0.05);
+  background-color: $white;
   background-color: $white;
   &__top {
     padding: 10px 0;

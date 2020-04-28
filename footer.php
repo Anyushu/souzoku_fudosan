@@ -83,7 +83,7 @@
 <!-- footer__wrap -->
 </div>
 </footer>
-<p class="socket">©2020 Shineijyutaku</p>
+<p class="socket">©2020 souzokufudousan-supportcenter</p>
 
 <a class="fixbtn" href="tel:0120-200-567">
 <img src="<?php e_img_url(); ?>/fix_btn_sp.png" alt="">

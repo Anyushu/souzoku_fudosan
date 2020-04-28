@@ -6,13 +6,18 @@ import "bootstrap";
 // import "slick-carousel";
 
 $(function ($) {
+  let h_h = $(".header").outerHeight();
   let w = $(window).width();
   let md = 991.98;
+
+  $("body").css("padding-top", h_h + "px");
+
   if (w <= md) {
     // 画像src切り替え
     $(".img-switch").each(function () {
       $(this).attr("src", $(this).attr("src").replace("_pc", "_sp"));
     });
+    $(".header__sp__btn").css("height", h_h + "px");
   }
 
   // sp_menu

@@ -7,7 +7,7 @@
 </head>
 <body>
 <!-- ヘッダー -->
-<header class="header sticky-top">
+<header class="header">
 <div class="header__top">
 <div class="container">
 <h1 class="header__top--logo">

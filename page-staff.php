@@ -92,6 +92,7 @@ $content = strip_tags(get_the_content());
 <section class="staff sec bg-gray pt-0">
 <div class="container">
 <div class="staff__wrap">
+<h2 class="ttl__h2 text-center">専門家紹介</h2>
 <div class="staff__wrap__prolist">
 <?php
 $args = [
